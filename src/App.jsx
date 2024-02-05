@@ -18,7 +18,7 @@ function App() {
     }
     Setpassword(pass)
 
-  }, [numbers, spchar, length, password])
+  }, [numbers, spchar, length])
 
   useEffect(() => {
     passwordGenrator()
